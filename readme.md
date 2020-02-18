@@ -11,6 +11,8 @@ Ownership is Rust’s most unique feature, and it enables Rust to make memory sa
 
 Putting the specifier ```:?``` inside the curly brackets tells println! we want to use an output format called Debug.
 
+Rust doesn’t have the null feature that many other languages have.
+
 Rust has a feature called [automatic referencing and dereferencing](https://doc.rust-lang.org/book/ch05-03-method-syntax.html#wheres-the---operator). Calling methods is one of the few places in Rust that has this behavior.
 
 [Read about Integer Overflow](https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow)
@@ -18,6 +20,8 @@ Rust has a feature called [automatic referencing and dereferencing](https://doc.
 [Read about Tuple Type](https://doc.rust-lang.org/book/ch03-02-data-types.html#the-tuple-type)
 
 [Read about Function Experssions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html#function-bodies-contain-statements-and-expressions)
+
+[Read bout the Option Enum](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html#the-option-enum-and-its-advantages-over-null-values)
 
 ### Rust conventions
 Rust’s naming convention for constants is to use all uppercase with underscores between words, and underscores can be inserted in numeric literals to improve readability.
