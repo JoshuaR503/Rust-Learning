@@ -15,3 +15,12 @@ Vectors can only store values of the same type. They are useful when you have a 
 
 There are two ways to [reference a value stored in a vector](https://doc.rust-lang.org/book/ch08-01-vectors.html#reading-elements-of-vectors).
 First, we use the index value of 2 to get the third element: vectors are indexed by number, starting at zero. Second, the two ways to get the third element are by using & and [], which gives us a reference, or by using the get method with the index passed as an argument, which gives us an Option<&T>
+
+### Storing UTF-8 Encoded Text with Strings
+Rust has only one [string](https://doc.rust-lang.org/book/ch08-02-strings.html#what-is-a-string) type in the core language. 
+The ```String``` type, which is provided by Rust’s standard library rather than coded into the core language, is a growable, mutable, owned, UTF-8 encoded string type.
+
+Rust’s standard library also includes a number of other string types, such as OsString, OsStr, CString, and CStr.
+Rust strings don’t support indexing. 
+
+Strings Are Not So Simple
