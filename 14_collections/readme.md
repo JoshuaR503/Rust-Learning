@@ -23,4 +23,10 @@ The ```String``` type, which is provided by Rust’s standard library rather tha
 Rust’s standard library also includes a number of other string types, such as OsString, OsStr, CString, and CStr.
 Rust strings don’t support indexing. 
 
-Strings Are Not So Simple
+Strings Are Not So Simple.
+
+### Hash Maps
+The type [HashMap](https://doc.rust-lang.org/book/ch08-03-hash-maps.html#storing-keys-with-associated-values-in-hash-maps)<K, V> stores a mapping of keys of type K to values of type V.
+Many programming languages support this kind of data structure, but they often use a different name, such as hash, map, object, hash table, dictionary, or associative array, just to name a few.
+
+Like vectors, hash maps are homogeneous: all of the keys must have the same type, and all of the values must have the same type.

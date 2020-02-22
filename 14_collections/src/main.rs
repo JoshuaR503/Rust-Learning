@@ -1,5 +1,5 @@
 
-
+use std::collections::HashMap;
 
 fn main() {
 
@@ -26,5 +26,20 @@ fn main() {
     // In this case, String::from and to_string do the same thing, so which you choose is a matter of style.
     let s3 = String::from("initial contents");
 
-    
+
+
+    // Creating a hash map
+    let mut scores = HashMap::new();
+
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Yellow"), 50);
+
+    let teams  = vec![String::from("Blue"), String::from("Yellow")];
+    let initial_scores = vec![10, 50];
+
+    let scores: HashMap<_, _> = 
+    teams
+    .iter()
+    .zip(initial_scores.iter())   // create a vector of tuples where “Blue” is paired with 10, and so forth. 
+    .collect();                   // use the collect method to turn that vector of tuples into a hash map.
 }
