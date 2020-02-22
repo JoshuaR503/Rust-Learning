@@ -35,3 +35,4 @@ Rust’s naming convention for constants is to use all uppercase with underscore
 
 Rust code uses snake case as the conventional style for function and variable names.
 
+Rust’s standard library includes a number of very useful data structures called collections.
